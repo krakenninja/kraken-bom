@@ -231,7 +231,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <changelist>-SNAPSHOT</changelist>
+                <changelist>-RELEASE</changelist>
             </properties>
         </profile>
         <!-- profile to deploy the BOM to GitHub as RELEASE ; use command ...

@@ -29,12 +29,12 @@ Before you can perform the command `mvn clean install deploy -Dsnapshot` —OR�
 </servers>
 ```
 
-### Install `locally`
-Following is used to install locally without deploying to GitHub. This is primarily useful if you would like to add/modify the existing `pom.xml` and test whether it works for you in your own project/module
+### Deploy `locally`
+Following is used to deploy locally into your Maven Local Repository (i.e `~/.m2/repository`). This is primarily useful if you would like to add/modify the existing `pom.xml` and test whether it works for you in your own project/module
 
 | ℹ️ INFORMATION |
 |---|
-| **DEFAULT** installs as `snapshot` for the version, you can change this in command as well by using the property `-Dchangelist=-RELEASE` <br/> <p>Example : `mvn clean install -Dchangelist=-RELEASE`</p> |
+| **DEFAULT** installs as `release` for the version, you can change this in command as well by using the property `-Dchangelist=-SNAPSHOT` <br/> <p>Example : `mvn clean install -Dchangelist=-SNAPSHOT`</p> |
 
 Below is the command to use : 
 

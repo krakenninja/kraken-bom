@@ -5,8 +5,8 @@ Following the common `BOM` that any projects can include/inherit from
 # 🛠️ Pre-requisites
 Following are the pre-requisites to run the following module :
 
-* [Java](https://openjdk.org) (version used `22.0.2`) — *this is only required if you plan to run the [zookeeper-kafka-test-container](zookeeper-kafka-test-container)*
-* [Maven](https://maven.apache.org/download.cgi) (version used `3.9.6`) — *this is only required if you plan to run the [zookeeper-kafka-test-container](zookeeper-kafka-test-container)*
+* [Java](https://openjdk.org) (version used `22.0.2`) 
+* [Maven](https://maven.apache.org/download.cgi) (version used `3.9.6`)
 
 
 # ⚛ Developer Notes

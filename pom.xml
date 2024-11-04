@@ -58,6 +58,9 @@
         <!-- Slf4j -->
         <slf4j.simple.version>2.0.16</slf4j.simple.version>
         
+        <!-- Kafka -->
+        <kafka.version>3.8.1</kafka.version>
+        
         <!-- Unit Test -->
         <mockito.inline.version>5.2.0</mockito.inline.version>
         
@@ -168,6 +171,18 @@
                 <version>${slf4j.simple.version}</version>
             </dependency>
             
+            <!-- Kafka -->
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka_2.13</artifactId>
+                <version>${kafka.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka-clients</artifactId>
+                <version>${kafka.version}</version>
+            </dependency>
+
             <!-- Unit Test -->
             <dependency>
                 <groupId>org.mockito</groupId>

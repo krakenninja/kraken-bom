@@ -52,7 +52,7 @@ Following is used to deploy a `$VERSION-SNAPSHOT` into the [GitHub Packages](htt
 Below is the command to use : 
 
 ```sh
-mvn clean install deploy -Drelease
+mvn clean install deploy -Dsnapshot
 ```
 
 ### Deploy `release`

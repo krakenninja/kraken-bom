@@ -61,6 +61,10 @@
         <!-- Kafka -->
         <kafka.version>3.8.1</kafka.version>
         
+        <!-- Flink -->
+        <flink.version>1.20.0</flink.version>
+        <flink.connector.kafka.version>3.3.0-1.20</flink.connector.kafka.version>
+        
         <!-- Unit Test -->
         <mockito.inline.version>5.2.0</mockito.inline.version>
         
@@ -183,6 +187,28 @@
                 <version>${kafka.version}</version>
             </dependency>
 
+            <!-- Flink -->
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-java</artifactId>
+                <version>${flink.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-streaming-java</artifactId>
+                <version>${flink.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-table-api-java-bridge</artifactId>
+                <version>${flink.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-connector-kafka</artifactId>
+                <version>${flink.connector.kafka.version}</version>
+            </dependency>
+            
             <!-- Unit Test -->
             <dependency>
                 <groupId>org.mockito</groupId>
